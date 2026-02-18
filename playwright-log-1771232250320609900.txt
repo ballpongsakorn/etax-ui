@@ -1,0 +1,50 @@
+{"level":30,"time":"2026-02-16T08:57:31.758Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Listening on 127.0.0.1:51272"}
+(node:31564) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2026-02-16T08:57:32.838Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-02-16T08:57:33.111Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
+{"level":30,"time":"2026-02-16T08:57:33.112Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-02-16T08:57:33.113Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-02-16T08:57:33.148Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-02-16T08:57:33.149Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":580,\"width\":1200}}"}
+{"level":30,"time":"2026-02-16T08:57:33.149Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b8d275f36e672ea502b221ce7cf239fa\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=2c44b14b-a30d-4120-a6f0-2467c70225a0\"}"}
+{"level":30,"time":"2026-02-16T08:57:33.149Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Trace file: "}
+{"level":30,"time":"2026-02-16T08:57:33.174Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Setting default timeout for context context=5ccbd4a4-f630-4b12-84d8-772ce5e6e03a to 60000"}
+{"level":30,"time":"2026-02-16T08:57:33.175Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Changed active context: context=5ccbd4a4-f630-4b12-84d8-772ce5e6e03a"}
+{"level":30,"time":"2026-02-16T08:57:33.175Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method newContext"}
+{"level":30,"time":"2026-02-16T08:57:33.182Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-02-16T08:57:33.183Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@b8d275f36e672ea502b221ce7cf239fa\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=5ccbd4a4-f630-4b12-84d8-772ce5e6e03a\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@8c2930ffd120574644c488060f89b4c8\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":580,\"width\":1200}},\"traceFile\":\"\"}],\"id\":\"browser=2c44b14b-a30d-4120-a6f0-2467c70225a0\"}"}
+{"level":30,"time":"2026-02-16T08:57:33.354Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Video path: undefined"}
+{"level":30,"time":"2026-02-16T08:57:33.354Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Changed active page"}
+{"level":30,"time":"2026-02-16T08:58:01.044Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method newPage"}
+{"level":30,"time":"2026-02-16T08:58:01.088Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-16T08:58:01.089Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2026-02-16T08:58:02.196Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-16T08:58:02.228Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-16T08:58:02.229Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-02-16T08:58:02.265Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-16T08:58:02.283Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method click"}
+{"level":30,"time":"2026-02-16T08:58:02.283Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=next in page."}
+{"level":30,"time":"2026-02-16T08:58:02.374Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method click"}
+{"level":30,"time":"2026-02-16T08:58:02.387Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-02-16T08:58:02.388Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with text=TESTSUPERADMIN in page."}
+{"level":30,"time":"2026-02-16T08:58:07.024Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-02-16T08:58:07.040Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Reload page with options: {\"waitUntil\": \"load\"}"}
+{"level":30,"time":"2026-02-16T08:58:07.561Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method getText"}
+{"level":30,"time":"2026-02-16T08:58:07.562Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with //body/app-root/ion-app/ion-router-outlet/app-home/ion-header/ion-toolbar/ion-row/ion-col[2]/div/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span/span in page."}
+{"level":50,"time":"2026-02-16T08:58:47.583Z","pid":31564,"hostname":"PDG-COM-06-001","err":{"type":"TimeoutError","message":"locator.elementHandle: Timeout 40000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//body/app-root/ion-app/ion-router-outlet/app-home/ion-header/ion-toolbar/ion-row/ion-col[2]/div/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span/span')\u001b[22m\n","stack":"locator.elementHandle: Timeout 40000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//body/app-root/ion-app/ion-router-outlet/app-home/ion-header/ion-toolbar/ion-row/ion-col[2]/div/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span/span')\u001b[22m\n\n    at getTextContent (C:\\Users\\PongsakornMadsen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:11776:33)\n    at getText (C:\\Users\\PongsakornMadsen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:11790:21)\n    at async PlaywrightServer.getText (C:\\Users\\PongsakornMadsen\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\Browser\\wrapper\\index.js:13381:28)","name":"TimeoutError"},"msg":"locator.elementHandle: Timeout 40000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('//body/app-root/ion-app/ion-router-outlet/app-home/ion-header/ion-toolbar/ion-row/ion-col[2]/div/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span/span')\u001b[22m\n"}
+================= Original suppressed error =================
+locator.elementHandle: Timeout 40000ms exceeded.
+Call log:
+[2m  - waiting for locator('//body/app-root/ion-app/ion-router-outlet/app-home/ion-header/ion-toolbar/ion-row/ion-col[2]/div/mat-form-field/div/div[1]/div/mat-select/div/div[1]/span/span')[22m
+
+    at getTextContent (C:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11776:33)
+    at getText (C:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11790:21)
+    at async PlaywrightServer.getText (C:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13381:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-02-16T08:58:47.583Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Error of node method  getText"}
+{"level":30,"time":"2026-02-16T08:58:47.594Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-02-16T08:58:47.594Z","pid":31564,"hostname":"PDG-COM-06-001","Take screenshot with options: ":{"path":"C:\\Users\\PongsakornMadsen\\Automate\\etax-ui-tests\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":40000,"omitBackground":false}}
+{"level":30,"time":"2026-02-16T08:58:47.704Z","pid":31564,"hostname":"PDG-COM-06-001","msg":"End of node method takeScreenshot"}

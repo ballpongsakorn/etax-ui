@@ -1,0 +1,69 @@
+{"level":30,"time":"2026-02-17T09:54:48.725Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Listening on 127.0.0.1:57122"}
+{"level":30,"time":"2026-02-17T09:54:48.831Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-02-17T09:54:49.144Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
+{"level":30,"time":"2026-02-17T09:54:49.145Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-02-17T09:54:49.145Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-02-17T09:54:49.174Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method newContext"}
+{"level":30,"time":"2026-02-17T09:54:49.174Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1920,\"height\":1080}}"}
+{"level":30,"time":"2026-02-17T09:54:49.175Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bb2e5ae88235c4ce74ed65421b886c5b\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=bb76375b-b8af-48b8-a606-e7fc3c763fc7\"}"}
+{"level":30,"time":"2026-02-17T09:54:49.175Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Trace file: "}
+{"level":30,"time":"2026-02-17T09:54:49.191Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Setting default timeout for context context=035dac48-3a4c-4a5b-8172-1e5da85333de to 60000"}
+{"level":30,"time":"2026-02-17T09:54:49.192Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Changed active context: context=035dac48-3a4c-4a5b-8172-1e5da85333de"}
+{"level":30,"time":"2026-02-17T09:54:49.192Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method newContext"}
+{"level":30,"time":"2026-02-17T09:54:49.199Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-02-17T09:54:49.200Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@bb2e5ae88235c4ce74ed65421b886c5b\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=035dac48-3a4c-4a5b-8172-1e5da85333de\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@da57d8c8c5b59031889387ff4dba0742\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"width\":1920,\"height\":1080}},\"traceFile\":\"\"}],\"id\":\"browser=bb76375b-b8af-48b8-a606-e7fc3c763fc7\"}"}
+{"level":30,"time":"2026-02-17T09:54:49.391Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Video path: undefined"}
+{"level":30,"time":"2026-02-17T09:54:49.392Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Changed active page"}
+{"level":30,"time":"2026-02-17T09:54:52.115Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method newPage"}
+{"level":30,"time":"2026-02-17T09:54:52.147Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-17T09:54:52.148Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=email in page."}
+{"level":30,"time":"2026-02-17T09:54:52.463Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-17T09:54:52.482Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-17T09:54:52.482Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-02-17T09:54:52.523Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-17T09:54:52.540Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method click"}
+{"level":30,"time":"2026-02-17T09:54:52.541Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with id=next in page."}
+{"level":30,"time":"2026-02-17T09:54:52.688Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method click"}
+{"level":30,"time":"2026-02-17T09:54:52.710Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-02-17T09:54:52.710Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Strict mode is enabled, find Locator with text=TESTSUPERADMIN in page."}
+{"level":30,"time":"2026-02-17T09:55:32.728Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Error of node method  waitForElementState"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 40000ms exceeded.
+Call log:
+[2m  - waiting for locator('text=TESTSUPERADMIN') to be visible[22m
+
+    at waitForElementState (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:11721:19)
+    at async PlaywrightServer.waitForElementsState (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13635:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2026-02-17T09:55:32.741Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-02-17T09:55:32.742Z","pid":12016,"hostname":"PDG-COM-06-001","Take screenshot with options: ":{"path":"C:\\Users\\PongsakornMadsen\\Automate\\etax-ui-tests\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":40000,"omitBackground":false}}
+{"level":30,"time":"2026-02-17T09:55:32.893Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-02-17T09:55:35.925Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method getConsoleLog"}
+{"level":30,"time":"2026-02-17T09:55:35.926Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method getConsoleLog"}
+{"level":30,"time":"2026-02-17T09:55:35.965Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2026-02-17T09:55:35.965Z","pid":12016,"hostname":"PDG-COM-06-001","Take screenshot with options: ":{"path":"C:\\Users\\PongsakornMadsen\\Automate\\etax-ui-tests\\browser\\screenshot\\failure-step-01-Login To ETax-Click Login.png","fileType":"png","fullPage":false,"timeout":1000,"omitBackground":false}}
+{"level":30,"time":"2026-02-17T09:55:36.087Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2026-02-17T09:55:36.101Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-02-17T09:55:36.117Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Removed page=df8e3a05-8d75-4e3c-ad18-ba2b5c531c2a from context=035dac48-3a4c-4a5b-8172-1e5da85333de page stack"}
+{"level":30,"time":"2026-02-17T09:55:36.384Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2026-02-17T09:55:36.387Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-17T09:55:36.388Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (c:\Users\PongsakornMadsen\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-17T09:55:36.397Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-17T09:55:36.397Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-17T09:55:38.454Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-02-17T09:55:38.454Z","pid":12016,"hostname":"PDG-COM-06-001","msg":"End of node method closeAllBrowsers"}
